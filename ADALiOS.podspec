@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ADALiOS"
-  s.version      = "1.2.9"
+  s.version      = "1.2.9-ios11"
   s.summary      = "The ADAL SDK for iOS gives you the ability to add Azure Identity authentication to your application"
 
   s.description  = <<-DESC
@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/azuread"
   s.platform     = :ios, "7.0"
   s.source       = { 
-    :git => "https://github.com/AzureAD/azure-activedirectory-library-for-objc.git", 
-    :tag => s.version.to_s
+    :git => "https://github.com/ee-piotrpluta/azure-activedirectory-library-for-objc.git", 
+    :tag => "1.29-ios11"
   }
   s.source_files = "ADALiOS/ADALiOS/**/*.{h,m}"
   s.resources    = "ADALiOS/ADALiOS/*.storyboard"
