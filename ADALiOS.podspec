@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { 
     :git => "https://github.com/ee-piotrpluta/azure-activedirectory-library-for-objc.git", 
-    :tag => "1.29-ios11"
+    :tag => "1.2.9-ios11"
   }
   s.source_files = "ADALiOS/ADALiOS/**/*.{h,m}"
   s.resources    = "ADALiOS/ADALiOS/*.storyboard"
